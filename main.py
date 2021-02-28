@@ -1,1 +1,1 @@
-print ("hello world")
+print ('Ea servers are trash')
