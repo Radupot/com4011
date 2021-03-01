@@ -1,4 +1,4 @@
-# Display a borobot
+# Display a robot
 print("\t\t\t    ##########")
 print("\t\t\t    #  *     #")
 print("\t\t\t    #   --   #")

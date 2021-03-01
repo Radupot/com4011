@@ -1,1 +1,1 @@
-print ('Ea servers are trash')
+print ('main')
