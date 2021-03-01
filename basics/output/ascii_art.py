@@ -1,4 +1,4 @@
-# Display a robot
+# Display a robo-pirate!
 print("\t\t\t    ##########")
 print("\t\t\t    #  *     #")
 print("\t\t\t    #   --   #")
