@@ -1,10 +1,10 @@
 print("Calculating the sum of  the first 100 numbers...")
 
-n= 1
-x= 0
+number= 1
+total= 0
  
-while (n <= 100):
-  x = x+n
-  n = n+1
+while (number <= 100):
+  total = total+number
+  number = number+1
 
-print("...Done! The answer is",x)
+print("...Done! The answer is",total)
