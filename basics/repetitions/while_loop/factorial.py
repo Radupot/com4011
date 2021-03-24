@@ -1,14 +1,12 @@
-print("How many numbers should I sum up?")
-#user input
-numbers = int(input())
-i=1
-t= 0
+#factorial of a number
 
-while (i <= numbers):
-  print("Please enter the number {} of {}".format(i,numbers))
-  number= int(input())
-  t=t+number
+print("Please enter a number: ")
+num=int(input())
+
+factorial = 1
+i = 1
+while (i<num):
   i=i+1
-  
+  factorial= factorial *i
 
-print("The answer is",t)
+print("The factorial is ",factorial)
