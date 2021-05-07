@@ -1,16 +1,14 @@
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
-import random as r
 
 fig, ax = plt.subplots()
+line, = ax.plot([],[], "ro-")
 
 def animate(frame):
-  ax.cla()
   ax.set_xlim(0,10)
   ax.set_ylim(0,10)
-  colours = ["r", "g", "b"]
-  point = "o"+ colours[r.randint(0,2)]
-  ax.plot(frame,frame, point)
+  line.set_data(range(frame), range(frame))
+  return line
 
 
 def run():
